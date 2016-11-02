@@ -7,7 +7,7 @@
 
 #define LOCK_F (*((volatile unsigned long *)0x40025520))
 #define CR_F (*((volatile unsigned long *)0x40025524))
-//fdgsdfgdsfgdfgfdsgsdfg 
+//fdgsdfgdfdgdfgsfgdfgfdsgsdfg 
 uint8_t ui8PinData=2;
 volatile uint8_t switch1_press=0;
 void hardware_configure(void);
